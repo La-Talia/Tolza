@@ -7,7 +7,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Header -->
+<header class="tool-header">
+  <div class="header-inner">
 
+    <!-- Left -->
+    <div class="header-left">
+      <a href="/" class="logo">
+        <span class="dot"></span>Tolza
+      </a>
+
+      <a href="/" class="back-btn">← Back</a>
+    </div>
+
+    <!-- Center Navigation -->
+    <nav class="tool-nav">
+      <select onchange="location = this.value;">
+        <option value="">All Tools</option>
+        <option value="/tools/image/compress-image-50kb/">Image Compressor</option>
+        <option value="/tools/finance/emi-calculator/">EMI Calculator</option>
+        <option value="/tools/student/cgpa-calculator/">CGPA Calculator</option>
+        <option value="/tools/developer/json-formatter/">JSON Formatter</option>
+      </select>
+    </nav>
+
+  </div>
+</header>
 <div class="container">
   <h1>Compress Image</h1>
   <p class="subtitle">Reduce image size instantly without losing quality</p>
